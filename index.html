@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Yacine Allal">
+        <meta name="description" content="Games Lobby">
+        <title>Game Lobby</title>
+        <link rel="stylesheet" href="./res/page.css">
+        <script type="module">
+            import Portfolio from './res/portfolio.js';
+            window.addEventListener('DOMContentLoaded', () => {
+                new Portfolio;
+            });
+        </script>
+    </head>
+    <body>
+        <header id="about">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1071.5">
+                <defs>
+                    <radialGradient id="header-bg-gradient">
+                        <stop offset="10%" stop-opacity="0.2" stop-color="white"/>
+                        <stop offset="100%" stop-opacity="0.3" stop-color="black"/>
+                    </radialGradient>
+                </defs>
+                <polygon class="color_layer" points="0 0 0 1071.5 1920 476 1920 0 0 0"/>
+                <polygon fill="url(#header-bg-gradient)" points="0 0 0 1071.5 1920 476 1920 0 0 0"/>
+            </svg>
+            <nav>
+                <div id="nav_links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Games</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div id="nav_styles">
+                    <label for="accent_color">Accent Color</label>
+                    <input type="color" id="accent_color">
+                    <span id="clear_settings" title="Clear Settings"></span>
+                    <span id="color_picker" title="Choose a Color"></span>
+                    <span id="theme_picker" title="Choose a Theme"></span>
+                </div>
+            </nav>
+            <section id="heading_wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 286.97 509.26">
+                    <defs>
+                        <radialGradient id="silhouette-gradient">
+                            <stop offset="10%" stop-opacity="0.1" stop-color="white"/>
+                            <stop offset="100%" stop-opacity="0.2" stop-color="black"/>
+                        </radialGradient>
+                    </defs>
+                    <path id="silhouette-base" d="M185,60.26c.1,3,5.78-2.9,7,1,2.5,8.11-3.76,27.78-8,36-.6,10.53-2.12,16-5,18-1.49,7.95-2.17,12.15-1,19,29.59,19.65,75,25.92,83,39,19.59,36.32,22,72,26,85-1,5-2,4-4,7,1,15-8.11,49.53-9,56-1,6.88-6.12,32.64-13,34-8,2.12-17.66.66-27,3-.31,21-.83,36.58-1.18,52.77,8.33,25.56,21.1,68.73,18.18,98.23H26c6.31-19-7.82-30-5-47,1.61-9.71,12.87-18.42,15-28,2.46-11,8.94-61,5-65-14.11-4-26.58,2.58-30-7-5.17-14.5-16.73-85.35-7-106-1-3-2-2-4-4,2-9,6-20,10-31,8.28-23.18,4.66-47.86,24-59l39-12c13.52-5.26,23.79-13.1,38-18-.26-.74-.92-4.68-1-11-6-7-7.8-7.71-10-31-4.08-4.09-5.61-12-6-21-.06-4.17,4.27-.77,4-2-1.21-5.5-3-20.86-1-30,2.4-11,10.58-24.85,19-30C151.11-14.2,184.75,14.4,185,60.26Z"/>
+                    <path fill="url(#silhouette-gradient)" d="M185,60.26c.1,3,5.78-2.9,7,1,2.5,8.11-3.76,27.78-8,36-.6,10.53-2.12,16-5,18-1.49,7.95-2.17,12.15-1,19,29.59,19.65,75,25.92,83,39,19.59,36.32,22,72,26,85-1,5-2,4-4,7,1,15-8.11,49.53-9,56-1,6.88-6.12,32.64-13,34-8,2.12-17.66.66-27,3-.31,21-.83,36.58-1.18,52.77,8.33,25.56,21.1,68.73,18.18,98.23H26c6.31-19-7.82-30-5-47,1.61-9.71,12.87-18.42,15-28,2.46-11,8.94-61,5-65-14.11-4-26.58,2.58-30-7-5.17-14.5-16.73-85.35-7-106-1-3-2-2-4-4,2-9,6-20,10-31,8.28-23.18,4.66-47.86,24-59l39-12c13.52-5.26,23.79-13.1,38-18-.26-.74-.92-4.68-1-11-6-7-7.8-7.71-10-31-4.08-4.09-5.61-12-6-21-.06-4.17,4.27-.77,4-2-1.21-5.5-3-20.86-1-30,2.4-11,10.58-24.85,19-30C151.11-14.2,184.75,14.4,185,60.26Z"/>
+                </svg>
+                <h1>Can't find a good pfp lol</h1>
+            </section>
+            <section id="about_me">
+                <h2>About</h2>
+                <p>This Portfolio was created by Yacine Allal and Oussama Safar Zitoun in order to contain The Projects (Games) created and provide easy access to their source code as well as their live preview --<em>which has been fun to make!</em></p>
+                
+            </section>
+        </header>
+        <main id="projects"><h2>Games</h2></main>
+        <footer id="contact">
+            <section id="contact_info">
+                <h2>Contact</h2>
+                <a id="email" href="mailto:safarAllal2024@gmail.com"><svg viewBox="0 0 24 24">
+                    <path d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+                </svg><span id="spam">safarAllal2024@gmail.com</span></a>
+                <a id="voicemail" href="tel:0793166695"><svg viewBox="0 0 24 24">
+                    <path d="M18.5,15A3.5,3.5 0 0,1 15,11.5A3.5,3.5 0 0,1 18.5,8A3.5,3.5 0 0,1 22,11.5A3.5,3.5 0 0,1 18.5,15M5.5,15A3.5,3.5 0 0,1 2,11.5A3.5,3.5 0 0,1 5.5,8A3.5,3.5 0 0,1 9,11.5A3.5,3.5 0 0,1 5.5,15M18.5,6A5.5,5.5 0 0,0 13,11.5C13,12.83 13.47,14.05 14.26,15H9.74C10.53,14.05 11,12.83 11,11.5A5.5,5.5 0 0,0 5.5,6A5.5,5.5 0 0,0 0,11.5A5.5,5.5 0 0,0 5.5,17H18.5A5.5,5.5 0 0,0 24,11.5A5.5,5.5 0 0,0 18.5,6Z" />
+                </svg>07-93-16-66-95</a>
+                <address>
+                    <svg viewBox="0 0 24 24">
+                        <path d="M17,4H7A5,5 0 0,0 2,9V20H20A2,2 0 0,0 22,18V9A5,5 0 0,0 17,4M10,18H4V9A3,3 0 0,1 7,6A3,3 0 0,1 10,9V18M19,15H17V13H13V11H19V15M9,11H5V9H9V11Z" />
+                    </svg>
+                    Ouzera City<br>
+                    Algeria Medea 26000
+                </address>
+                <div id="social"></div>
+            </section>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1071.5">
+                <defs>
+                    <radialGradient id="footer-bg-gradient">
+                        <stop offset="10%" stop-opacity="0.2" stop-color="white"/>
+                        <stop offset="100%" stop-opacity="0.3" stop-color="black"/>
+                    </radialGradient>
+                </defs>
+                <polygon class="color_layer" points="1920 1071.5 1920 0 0 595.5 0 1071.5 1920 1071.5"/>
+                <polygon fill="url(#footer-bg-gradient)" points="1920 1071.5 1920 0 0 595.5 0 1071.5 1920 1071.5"/>
+            </svg>
+        </footer>
+    </body>
+</html>
